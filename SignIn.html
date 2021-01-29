@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN PAGE</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<style type="text/css">
+		.c{
+			font-family: ui-serif;
+			font-size: 24px;
+			word-spacing: 10px;
+			text-align: center;
+			color: rgb(203,166,52);
+		}
+		.d{
+			font-size: 16px;
+			font-family: ui-serif;
+			text-align: justify;
+			color: rgb(203,166,52);
+		}
+		.e{
+			margin: 30px 0px 0px 0px;
+			border-top: 3px solid rgb(223,231,88);
+		}
+		.f{
+			margin: 30px 0px 0px 0px;
+			font-size: 20px;
+			font-family: ui-serif;
+			color: rgb(203,166,52);
+		}
+		.m{
+			border-bottom: 2px solid rgb(223,231,88); 
+		}
+		.o{
+			margin-top: 10px;
+		}
+		.box{
+			border: 5px white;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.i1, .i2{
+			width: 15px;
+			height: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron text-center">
+			<span class="c">
+				WELCOME TO JEWLLERY MANAGEMENT
+			</span>
+		</div>
+		
+		<div class="e box text-center col-lg-12 col-md-12 col-sm-12">
+			<div class="m">
+			<span class="c">
+				SIGN IN
+			</span>
+		</div>
+		<div class="f col-lg-12 col-md-12 col-sm-12">
+              <div class="form form-horizontal">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+					<div class="form-group">
+						<label for="Your EmailID" class="col-lg-3 col-md-3 col-sm-4 control-label">Email ID :</label>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+						</div>
+                    <div class="validate"></div>
+                  	</div>
+                  	<div class="form-group">
+                  		<label for="Subject" class="col-lg-3 col-md-3 col-sm-4 control-label">Password :</label>
+                  		<div class="col-lg-6 col-md-6 col-sm-6">
+                    		<input type="text" class="form-control" name="subject" id="subject" placeholder="Password" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    	</div>
+                    <div class="validate"></div>
+                  </div>
+              </form>
+          </div>
+      </div>
+
+	 <div class="o col-lg-12 col-md-12 col-sm-12">
+	    <div class="btn" role="group" aria-label="...">
+			<button type="button" class="btn btn-rgb(223,231,88)"><span class="d">Sign in</span></button>
+			<button type="button" class="btn btn-default"><span class="d">Cancel</span></button>
+		</div>
+	</div>
+
+	<div class="o col-lg-12 col-md-12 col-sm-12">
+	    <div class="btn" role="group" aria-label="...">
+			<button type="button" class="btn btn-rgb(223,231,88)"><span class="d">continue with <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" class="i1"></span></button>
+			<button type="button" class="btn btn-default"><span class="d">continue with <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" class="i2"></span></button>
+		</div>
+	</div>
+
+	<div class="">
+		<span class="d">already have an account? <a href="#">sign in</a></span>
+	</div>
+</div>
+</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</html>
